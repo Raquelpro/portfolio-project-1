@@ -8,3 +8,8 @@ p {
     font-family: 'Playfair Display', serif;
     font-weight: 'Poppins', sans-serif;
 }
+
+.info {
+    background: #6A6A6A;
+    text-align: center;
+}
