@@ -19,6 +19,10 @@ h1 {
     font-size: 85px;
 }
 
+h2 {
+    font-size: 64px;
+}
+
 p {
     color: white;
     font-family: var(--default-font-family);
@@ -65,6 +69,12 @@ h2 {
 }
 
 .btn-branding-outline {
-    color: var(--branding-color);
     
+    background: var(--primary-color);
+    border: 1px solid var(--branding-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
 }
