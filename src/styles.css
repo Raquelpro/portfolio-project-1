@@ -1,6 +1,6 @@
 :root {
     --branding-color: #F1C4B3;
-    --primary-color: #0a3805;
+    --primary-color: #095463;
     --secondary-color: black;
     --heading-font-family: "Playfair Display", serif;
     --default-font-family: "Poppins", sans-serif;
@@ -66,7 +66,9 @@ h2 {
     color: black;
 }
 
-
+.project-description {
+  padding: 120px 60px;  
+}
 
 .btn-branding-outline {
     
@@ -79,3 +81,8 @@ h2 {
     padding: 15px 30px;
 }
 
+@media (max-width: 960px) {
+.project-description {
+    padding: 0;
+    text-align: center;
+}}
