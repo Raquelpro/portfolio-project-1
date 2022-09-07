@@ -33,6 +33,10 @@ h2 {
     font-size: 50px;
 }
 
+img {
+    padding: 30px;
+}
+
 
 .intro {
     background: var(--branding-color);
@@ -51,6 +55,10 @@ h2 {
     font-size: 24px;
 }
 
+.about-header {
+   padding: 16px 12px; 
+}
+
 .about-header h1 {
    font-size: 64px;
    line-height: 80px; 
@@ -59,6 +67,10 @@ h2 {
 .about-header h2 {
     font-size: 18px;
     font-family: var(--default-font-family);
+}
+
+.about-header-content {
+    margin: 30px;
 }
 
 .btn-branding {
