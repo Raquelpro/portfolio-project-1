@@ -33,6 +33,10 @@ h2 {
     font-size: 50px;
 }
 
+h4 {
+   font-size: 48px; 
+}
+
 img {
     padding: 30px;
 }
@@ -62,6 +66,42 @@ nav a {
 nav a:hover, 
 nav li.active a {
   color: var(--branding-color);  
+}
+
+footer .contact-box {
+    background: var(--branding-color);
+    padding: 30px 50px;
+    border-radius: 10px;
+}
+
+footer .contact-box p {
+margin: 0;
+}
+
+footer .email-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
+
+footer .email-link:hover {
+    color: var(--branding-color);
+}
+
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--primary-color);
+    background: var(--branding-color);
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+   color: white;
+   background: var(--primary-color); 
 }
 
 .intro {
@@ -139,10 +179,20 @@ nav li.active a {
     h2 {
         font-size: 40px;
     }
+    h4 {
+        font-size: 18px;
+    }
+    .btn {
+     font-size: 13px;   
+    }
 .project-description {
     padding: 0;
     text-align: center;
-}}
+}
+    footer .contact-box {
+        padding: 30px;
+    }
+}
 
 .content-container {
     text-align: center;
