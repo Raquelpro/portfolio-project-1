@@ -112,3 +112,12 @@ img {
     padding: 0;
     text-align: center;
 }}
+
+.about-header {
+    text-align: center;
+    padding: 0;
+}
+
+.about-header-content h1 {
+    font-size: 54px;
+}
