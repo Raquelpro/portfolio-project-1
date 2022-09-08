@@ -37,6 +37,32 @@ img {
     padding: 30px;
 }
 
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 40px;
+    margin-left: 15px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 20px 0;;
+}
+
+nav a {
+    text-decoration: none;
+    color: #272142;
+    transition: all 100ms ease-in-out;
+}
+
+nav a:hover, 
+nav li.active a {
+  color: var(--branding-color);  
+}
 
 .intro {
     background: var(--branding-color);
@@ -128,5 +154,10 @@ img {
 }
 
 .logo {
-    max-width: 150px;
+    max-height: 40px;
+    padding: 0;
+}
+
+nav a {
+    font-size: 14px;
 }
