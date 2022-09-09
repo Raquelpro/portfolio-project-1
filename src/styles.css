@@ -10,6 +10,13 @@ body {
     font-family: var(--default-font-family);
 }
 
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+
 h1, h2, h3{
     color: var(--secondary-color);
     font-family: var(--heading-font-family);
@@ -17,7 +24,7 @@ h1, h2, h3{
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 40px;
     line-height: 1.5;
 }
 
@@ -126,7 +133,7 @@ footer .social-links a:hover {
 }
 
 .content h1 {
-   font-size: 64px;
+   font-size: 60px;
    line-height: 80px; 
 }
 
@@ -172,15 +179,15 @@ footer .social-links a:hover {
     padding: 13px 25px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 576px) {
     h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
     h2 {
         font-size: 40px;
     }
     h4 {
-        font-size: 18px;
+        font-size: 26px;
     }
     .btn {
      font-size: 13px;   
@@ -189,9 +196,7 @@ footer .social-links a:hover {
     padding: 0;
     text-align: center;
 }
-    footer .contact-box {
-        padding: 30px;
-    }
+
 }
 
 .content-container {
